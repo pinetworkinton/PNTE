@@ -1,9 +1,9 @@
  <?php
 $host = 'sql107.infinityfree.com';
 $db   = 'if0_37781627_1';
-$user = 'if0_37781627';
-$pass = 'Alihaji123';
-$port = 3306;
+$user = '1';
+$pass = '1';
+$port = 1;
 
 $conn = new mysqli($host, $user, $pass, $db, $port);
 if ($conn->connect_error) die("Database Connection Failed: " . $conn->connect_error);
